@@ -1,0 +1,203 @@
+html, body {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* content containers */
+
+.content-container{
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.container-wrapper {}
+
+.container-wrapper--orange {
+	background-color: #e7a33b;
+	color: white;
+}
+
+
+.alert-container .col-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sitewide-alert {
+	border-radius: 0;
+	margin-bottom: 0;
+	padding:2px;
+	background-color: #e7a33b;
+	border-color: #e7a33b;
+	font-size: 0.65em;
+	text-align: center;
+	color:#683605;
+}
+
+
+.callout-container {
+	height: 100vh;
+	background: url("../images/whiskey-over-ice.jpg") no-repeat  bottom right fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.quotes-container {
+	
+}
+
+.features-container {
+	
+}
+
+.opaque-overlay {
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0,0,0,0.6);
+}
+
+.page-header {
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	text-align: center;
+}
+
+.page-header h2 {
+	margin: 0;
+}
+
+
+
+/* Block Divider */
+
+.block-divider {
+    width: 75px;
+    border: none;
+    height: 2px;
+    border-radius: 10px;
+}
+
+.block-divider--oragne {
+	   background-color: #e7a33b;
+}
+
+.block-divider--white {
+	background-color: #fff;
+}
+
+.block-divider--short {
+	width: 35px;
+}
+
+/* Navbar */
+
+.navalert-container{
+	position: absolute;
+	top:0;
+	left:0;
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 1;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.25);
+}
+
+.navbar-toggler {
+	border: 0;
+}
+
+.navbar-brand {
+	color: #f9f9f9;
+	font-weight: 100;
+}
+
+.navbar .navbar-nav a {
+	font-weight: bold;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+	background-color: transparent;
+}
+
+.jumbotron-header {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.jumbotron small {
+	font-size: 60%;
+	font-style: italic;
+}
+
+.lead {
+	color: #8d8a8a;
+	margin: 25px 0px;
+}
+
+
+/* Button */
+
+.btn--cta {
+	font-weight: bolder;
+	border-radius: 23px;
+	width: 160px;
+}
+
+.btn--orange {
+	color:white;
+	background-color: #c88726;
+	border-color: #c88726;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+	background-color: #986519;
+	border-color: #986519;
+}
+
+.feature {
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.feature i {
+	margin-bottom: 20px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.feature .btn {
+	margin-top: 10px;
+	border-radius: 15px;
+	background-color: white;
+	color: #c88726;
+}
